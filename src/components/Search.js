@@ -43,7 +43,7 @@ const Search = () => {
       <form onSubmit={(e) => handleSubmit(e)} style={{ display: 'flex', flexDirection: 'column'}}>
           <TextField 
           style={{ marginBottom: '20px'}} 
-          label='Enter you link...' 
+          label='Enter the link...' 
           variant='outlined' 
           value={link}
           onChange={(e) => setLink(e.target.value)}
